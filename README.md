@@ -8,4 +8,4 @@
 
 ## Інструкція
 
-Завантаже файл "art-woocommerce-order-one-click-uk.mo" на сайт в папку: /wp-content/languages/plugins/
+Завантажте файл "art-woocommerce-order-one-click-uk.mo" на сайт в папку: /wp-content/languages/plugins/

@@ -4,8 +4,7 @@
 
 Версія: 2.4.5
 
-Детальніше про сам плагін: 
-https://inwebpress.com/pokupka-tovara-v-odin-klik-woocommerce-plagin-art-woocommerce-order-one-click/
+Детальніше про сам плагін: https://bit.ly/3fjX5TC
 
 ## Інструкція
 

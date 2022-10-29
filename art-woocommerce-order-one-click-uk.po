@@ -1,0 +1,591 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Art WooCommerce Order One Click v2.4.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-10-30 14:10+0300\n"
+"Last-Translator: Николай Пекарский <dizer7@gmail.com>\n"
+"Language-Team: Микола Пекарський <dizer7@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: uk_UA\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'Name'
+#: art-woo-order-one-click.php:0
+#: includes/admin/class-awooc-admin-settings.php:743
+#: includes/admin/class-awooc-admin-settings.php:798
+msgid "Art WooCommerce Order One Click"
+msgstr "Art WooCommerce Order One Click"
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'PluginURI'
+#: art-woo-order-one-click.php:0
+msgid "wpruse.ru/my-plugins/order-one-click/"
+msgstr "wpruse.ru/my-plugins/order-one-click/"
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'Description'
+#: art-woo-order-one-click.php:0
+msgid "Plugin for WooCommerce. It includes the catalog mode in the store (there are no prices and the Buy button) and can turn on the Buy/Order button in one click. WooCommerce and Contact Form 7 are required for proper operation."
+msgstr "Плагін для WooCommerce. Він включає в себе режим каталогу в магазині (відсутні ціна і кнопка «Купити») і може ввімкнути кнопку «Купити/Замовити» в один клік. Для належної роботи потрібні плагіни WooCommerce і Contact Form 7."
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'Author'
+#: art-woo-order-one-click.php:0
+msgid "Artem Abramovich"
+msgstr "Artem Abramovich"
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'AuthorURI'
+#: art-woo-order-one-click.php:0
+msgid "https://wpruse.ru/"
+msgstr "https://wpruse.ru/"
+
+# @ art-woocommerce-order-one-click
+#. translators: plugin header field 'Version'
+#: art-woo-order-one-click.php:0
+msgid "2.4.3"
+msgstr "2.4.3"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/added-cf7-field.php:90
+msgid "AWOOC hide field"
+msgstr "AWOOC приховане поле"
+
+# @ art-woocommerce-order-one-click
+#. translators: %s: window description
+#: includes/admin/added-cf7-field.php:101
+#, php-format
+msgid "Generate a special hidden multi-line field. See %s."
+msgstr "Генерується спеціальне багаторядкове поле. Див. %s."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/added-cf7-field.php:104
+msgid "https://wpruse.ru/my-plugins/order-one-click/"
+msgstr "https://wpruse.ru/my-plugins/order-one-click/"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/added-cf7-field.php:105
+msgid "the description for details"
+msgstr "докладний опис"
+
+# @ contact-form-7
+#: includes/admin/added-cf7-field.php:118
+msgid "Name"
+msgstr "Ім’я"
+
+# @ contact-form-7
+#: includes/admin/added-cf7-field.php:146
+msgid "Insert Tag"
+msgstr "Вставити тег"
+
+# @ contact-form-7
+#. translators: %s: field description
+#: includes/admin/added-cf7-field.php:158
+#, php-format
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr "Щоб використати значення, введене в цьому полі в листах, потрібно вставити відповідний поштовий тег (%s) в полі на вкладці Пошта."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-meta-box.php:56
+msgid "Disable Order One Click Button"
+msgstr "Вимкнути кнопку Замовити в 1 клік"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-meta-box.php:58
+msgid "If enabled, then on this product the Order button will not be visible. Product will return to its original condition."
+msgstr "Якщо ввімкнено, то в цьому товарі кнопка \"Замовити\" не відображатиметься. Товар повернеться до початкового стану."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:30
+#: includes/class-awooc-orders.php:122
+msgid "One click order"
+msgstr "Замовити в один клік"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:82
+msgid "Off"
+msgstr "Вимк"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:83
+msgid "On"
+msgstr "Вкл"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:382
+msgid "General"
+msgstr "Основні"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:426
+msgid "General settings"
+msgstr "Загальні налаштування"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:432
+msgid "Operating mode"
+msgstr "Режим роботи"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:433
+msgid "Select the mode of operation and display the Buy button"
+msgstr "Виберіть режим роботи та відображення кнопки Купити"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:443
+msgid "Select form"
+msgstr "Виберіть форму"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:444
+msgid "Choose the desired form"
+msgstr "Виберіть потрібну форму"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:448
+msgid "-- Select --"
+msgstr "-- Виберіть --"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:455
+msgid "Button Label"
+msgstr "Напис на кнопці"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:456
+msgid "Specify the desired label on the button"
+msgstr "Вкажіть напис на кнопці"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:459
+msgid "Buy in one click"
+msgstr "Купити в один клік"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:465
+msgid "Special label"
+msgstr "Спеціальний напис"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:467
+msgid "Special field for the Order button. Allows you to change the label on the button when turning on the Price and Stocks mode."
+msgstr "Спеціальне поле для кнопки \"Замовити\". Дозволяє змінити напис на кнопці під час увімкнення режиму Ціни та Запаси."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:482
+msgid "Popup window"
+msgstr "Спливаюче вікно"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:489
+msgid "Turn off window elements"
+msgstr "Вимкніть елементи вікна"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:490
+msgid "Remove items that are NOT needed."
+msgstr "Видаліть елементи, які НЕ потрібні."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:500
+msgid "Styles and scripts globally"
+msgstr "Стилі та сценарії глобально"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:502
+msgid "If you enable this setting, then the files of forces and scripts will be connected globally on all pages of the site. This setting will be useful for displaying the One-click Order button on the list of products and when using quick view"
+msgstr "Якщо ввімкнути цей параметр, то файли стилів і скриптів будуть глобально підключатися на всіх сторінках сайту. Цей параметр буде корисним для відображення кнопки \"Замовити в один клік\" у списку товарів та під час швидкого перегляду товару"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:515
+msgid "Orders"
+msgstr "Замовлення"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:529
+msgid "Create orders"
+msgstr "Створення замовлень"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:531
+msgid "When this setting is enabled, orders will be created in the WooCommerce panel with the status \"Pending payment\""
+msgstr "Коли цей параметр ввімкнено, замовлення створюватимуться в панелі WooCommerce зі статусом \"Очікує на оплату\"."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:540
+msgid "Change subject"
+msgstr "Змінити тему"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:542
+msgid "If you enable this setting, then the order number will be added to the subject of the letter in the format of the \"Letter Subject No. 112233\""
+msgstr "Якщо ввімкнути це налаштування, то до теми листа додаватиметься номер замовлення у форматі \"Тема_листа №112233\""
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:555
+msgid "Others"
+msgstr "Інше"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:562
+msgid "Do not delete settings"
+msgstr "Не видаляйте налаштування"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:564
+msgid "If enabled, then the settings when you remove the plugin will NOT be deleted"
+msgstr "Якщо ввімкнено, то налаштування під час видалення плагіна НЕ видалятимуться"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:600
+msgid "Useful links"
+msgstr "Корисні посилання"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:609
+msgid "Donate"
+msgstr "Підтримати"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:642
+msgid "Catalog mode"
+msgstr "Режим каталогу"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:643
+msgid "Normal mode"
+msgstr "Нормальний режим"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:644
+msgid "Pre-order mode"
+msgstr "Режим попереднього замовлення"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:645
+msgid "Special mode"
+msgstr "Спеціальний режим"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:686
+msgid "Title"
+msgstr "Назва"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:687
+msgid "Image"
+msgstr "Зображення"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:688
+msgid "Price"
+msgstr "Ціна"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:689
+msgid "SKU"
+msgstr "Артикул"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:690
+msgid "Attributes"
+msgstr "Атрибути"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:691
+msgid "Quantity"
+msgstr "Кількість"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:692
+msgid "Amount"
+msgstr "Сума"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:708
+msgid "<strong>Warning! The functionality is under development. </strong> For the correct operation of this functionality. Requires proper creation of fields in the Contact Form 7 form with the names:"
+msgstr "<strong>Увага! Функціонал знаходиться на стадії розробки.</strong> Для правильної роботи цієї функції потрібно створити поля в формі Contact Form 7 з наступними іменами:"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:709
+msgid "field Name - <code>awooc-text</code>;"
+msgstr "поле Ім'я - <code>awooc-text</code>;"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:710
+msgid "field Email - <code>awooc-email</code>;"
+msgstr "поле Email - <code>awooc-email</code>;"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:711
+msgid "field Phone - <code>awooc-tel</code>;"
+msgstr "поле Телефон - <code>awooc-tel</code>;"
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: Art WooCommerce Order One Click 2:: five stars
+#: includes/admin/class-awooc-admin-settings.php:742
+#, php-format
+msgid "If you like the plugin %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Якщо вам подобається плагін %1$s, поставте нам оцінку %2$s. Дякуємо дуже!"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:745
+msgid "five star"
+msgstr "п'ять зірок"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:745
+msgid "Thanks :)"
+msgstr "Дякую :)"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:755
+msgid "Thank you for using the plugin!"
+msgstr "Дякуємо за використання плагіна!"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:779
+msgid "PayPal"
+msgstr "PayPal"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:780
+msgid "Make a donation through PayPal"
+msgstr "Зробіть пожертву через PayPal"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:784
+msgid "Yandex Money"
+msgstr "ЮMoney"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:785
+msgid "Make a donation through the Yandex Money system. You can use bank cards"
+msgstr "Зробіть пожертву через систему Яндекс Гроші. Можна використовувати банківські картки"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:789
+msgid "WPRUSe"
+msgstr "WPRUSe"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:790
+msgid "WPRUSe project site"
+msgstr "Сайт проекту WPRUSe"
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: Art WooCommerce Order One Click
+#: includes/admin/class-awooc-admin-settings.php:797
+#, php-format
+msgid "You can make a donation to make the plugin %1$s even better!"
+msgstr "Ви можете зробити пожертву, щоб плагін %1$s став ще кращим!"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:825
+msgid "Detailed step by step instructions for setting up the plugin (in Russian)"
+msgstr "Детальна покрокова інструкція по установці, налаштуванню і використанню плагіна (російською мовою)"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:828
+msgid "Plugin on GitHub, you can write there suggestions, wishes or participate in the development"
+msgstr "Плагін є на GitHub, ви можете писати туди пропозиції, побажання або взяти участь у розробці"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:849
+msgid "On the pages of the categories and the store itself, the Add to Cart buttons are disabled. On the product page, the \"Add to cart\" button is hidden and the \"Order\" button appears."
+msgstr "На сторінках категорій і самого магазину кнопка \"Додати в кошик\" відключена. На сторінці товару кнопка \"Додати в кошик\" прихована, а з’явиться кнопка \"Замовити\"."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:853
+msgid "The button \"Add to cart\" works in the normal mode, that is, goods can be added to the cart and at the same time ordered in one click"
+msgstr "Кнопка «Додати в кошик» працює в звичайному режимі, тобто, товар можна додати в кошик і при цьому замовити в один клік"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:857
+msgid "The Order button will appear automatically if: Price not available;  stock status \"In Unfulfilled Order\"; stock status \"Out of stock\"; inventory management is enabled at item level and preorders allowed"
+msgstr "Кнопка Замовити з'явиться автоматично, якщо: Ціна недоступна; статус запасу \"Невиконане замовлення\"; статус запасу \"Немає в наявності\"; керування запасами ввімкнено на рівні товару, а попередні замовлення дозволені"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-admin-settings.php:861
+msgid "When turned on, it works the same way as normal mode. But if the goods have no price or the product out of stock, then only the Order button will appear."
+msgstr "При включенні він працює так само, як і звичайний режим. Але, якщо у товару немає ціни або товару немає в наявності, то з’явиться лише кнопка Замовити."
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-install-form.php:41
+msgid "Your Name"
+msgstr "Ваше ім'я"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-install-form.php:42
+msgid "Your Email"
+msgstr "Ваш Email"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-install-form.php:43
+msgid "Your Phone"
+msgstr "Ваш телефон"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-install-form.php:44
+msgid "Send"
+msgstr "Відправити"
+
+# @ art-woocommerce-order-one-click
+#. translators: %s: [awooc-text]
+#: includes/admin/class-awooc-install-form.php:48
+#, php-format
+msgid "Name: %s"
+msgstr "Ім’я: %s"
+
+# @ art-woocommerce-order-one-click
+#. translators: %s: [awooc-email]'
+#: includes/admin/class-awooc-install-form.php:49
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+# @ art-woocommerce-order-one-click
+#. translators: %s: [awooc-tel]
+#: includes/admin/class-awooc-install-form.php:50
+#, php-format
+msgid "Phone: %s"
+msgstr "Телефон: %s"
+
+# @ contact-form-7
+#. translators: 1: blog name, 2: blog URL
+#: includes/admin/class-awooc-install-form.php:52
+#, php-format
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "Цей лист було надіслано з контактної форми на сайті %1$s (%2$s)"
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: blog name, 2: blog URL
+#: includes/admin/class-awooc-install-form.php:85
+#: includes/admin/class-awooc-install-form.php:99
+#, php-format
+msgid "Order from the site %1$s (%2$s)"
+msgstr "Замовлення з сайту %1$s (%2$s)"
+
+# @ art-woocommerce-order-one-click
+#: includes/admin/class-awooc-install-form.php:122
+msgid "Order One Click"
+msgstr "Замовте в один клік"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:55
+msgid "Something is wrong with sending data. Unable to get product ID. Disable the output in the popup window or contact the developers of the plugin"
+msgstr "Щось не так з надсиланням даних. Не вдається отримати ідентифікатор товару. Вимкніть вивід у спливаючому вікні або зверніться до розробника плагіну"
+
+# @ woocommerce
+#: includes/class-awooc-ajax.php:195
+msgid "N/A"
+msgstr "N/A"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:294 includes/class-awooc-enqueue.php:65
+msgid "Attributes: "
+msgstr "Атрибути: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:319 includes/class-awooc-enqueue.php:62
+msgid "Price: "
+msgstr "Ціна: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:347 includes/class-awooc-enqueue.php:64
+msgid "Amount: "
+msgstr "Сума: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:414
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Категорія:"
+msgstr[1] "Категорії:"
+msgstr[2] "Категорії:"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-ajax.php:479 includes/class-awooc-enqueue.php:63
+msgid "SKU: "
+msgstr "Артикул: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-enqueue.php:60
+msgid "Quantity: "
+msgstr "Кількість: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-enqueue.php:61
+msgid "Title: "
+msgstr "Назва: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-enqueue.php:66
+msgid "Information about the selected product"
+msgstr "Інформація про обраний товар"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-enqueue.php:67
+msgid "Link to the product: "
+msgstr "Посилання на товар: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc-enqueue.php:68
+msgid "Click to close"
+msgstr "Натисніть, щоб закрити"
+
+# @ woocommerce
+#: includes/class-awooc-front-end.php:386
+msgid "Read more"
+msgstr "Читати далі"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc.php:288
+msgid "Settings"
+msgstr "Налаштування"
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: Name plugins, 2:PHP version
+#: includes/class-awooc.php:306
+#, php-format
+msgid "%1$s requires PHP version 7.3 or higher. Your current PHP version is %2$s. Please upgrade PHP version to run this plugin."
+msgstr "%1$s вимагає PHP версії 7.3 або вище. Ваша поточна версія PHP – %2$s. Оновіть версію PHP, щоб запустити цей плагін."
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: Name author plugin
+#: includes/class-awooc.php:420
+#, php-format
+msgid "The %s requires installed and activated plugins: "
+msgstr "Для %s потрібно встановити та активувати наступні плагіни: "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc.php:432
+msgid " version "
+msgstr " версія "
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc.php:432
+msgid " or higher"
+msgstr " або вище"
+
+# @ art-woocommerce-order-one-click
+#: includes/class-awooc.php:440
+msgid " and "
+msgstr " та "
+
+# @ art-woocommerce-order-one-click
+#. translators: 1: Name author plugin
+#: includes/class-awooc.php:464
+#, php-format
+msgid "%s plugin has been deactivated."
+msgstr "Плагін %s деактивовано."

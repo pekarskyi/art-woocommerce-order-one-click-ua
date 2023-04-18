@@ -9,3 +9,5 @@
 ## Інструкція
 
 Завантажте файл "art-woocommerce-order-one-click-uk.mo" на сайт в папку: /wp-content/languages/plugins/
+
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://sitex.me/standwithukraine)
